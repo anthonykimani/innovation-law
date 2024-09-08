@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        melodrama: ['var(--font-melodrama)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
