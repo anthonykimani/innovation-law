@@ -1,12 +1,11 @@
+import About from "@/components/landing/About";
 import HeroSection from "@/components/landing/HeroSection";
-import Navbar from "@/components/landing/Navbar";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
-      <Navbar />
+    <div className="bg-white">
       <HeroSection />
+      <About />
     </div>
   );
 }
