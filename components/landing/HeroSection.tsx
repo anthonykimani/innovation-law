@@ -5,14 +5,14 @@ const HeroSection = () => {
   return (
     <div className="bg-hero-bg bg-cover bg-center h-screen">
       <Navbar />
-      <div className="bg-app-bg bg-no-repeat bg-cover flex flex-col md:flex-row items-center justify-start p-5 md:py-10 md:px-20">
+      <div className="flex flex-col md:flex-row items-center justify-start p-5 md:py-10 md:px-20">
         <article className="text-black flex flex-col justify-center md:justify-center h-[500px]">
           <div className="my-[20px] md:my-[0px]">
             <h1 className="text-white font-melodrama text-5xl lg:text-6xl font-semibold md:my-[20px]">
               Innovation Meets Law
             </h1>
           </div>
-          <h2 className="font-DM mb-[20px] md:my-[30px] text-white">
+          <h2 className="font-DM mb-[20px] md:my-[30px] max-w-[800px] text-white">
             Empowering Africa’s future with innovative legal solutions. Our
             expert team provides trusted guidance to help you navigate
             challenges, seize opportunities, and drive growth across the
