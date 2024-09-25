@@ -19,7 +19,7 @@ const config: Config = {
   			foreground: 'var(--foreground)'
   		},
   		backgroundImage: {
-  			"hero-bg": "url('/img/nairobi-skyline.png')"
+  			"hero-bg": "url('/svg/background.svg')"
   		},
   		screens: {
   			xxs: '320px',

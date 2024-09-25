@@ -4,7 +4,7 @@ import { Team } from "@/components/landing/Team";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="">
       <HeroSection />
       <About />
       <Team />
