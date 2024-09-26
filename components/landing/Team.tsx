@@ -81,7 +81,7 @@ const teamList: TeamProps[] = [
  
 ];
 
-export const Team = () => {
+export default function Team () {
   const socialIcon = (iconName: string) => {
     switch (iconName) {
       case "Linkedin":

@@ -8,12 +8,12 @@ const HeroSection = () => {
       <div className="flex flex-col md:flex-row items-center justify-start p-5 md:py-10 md:px-20">
         <article className="text-black flex flex-col justify-center md:justify-center h-[500px]">
           <div className="my-[20px] md:my-[0px]">
-            <h1 className="text-[#0C3179] font-melodrama text-5xl lg:text-6xl font-semibold md:my-[20px]">
-              Innovation Meets Law
+            <h1 className="text-[#0C3179] font-DM text-5xl lg:text-6xl font-semibold md:my-[20px]">
+             Magnitude. Innovation. Direction
             </h1>
           </div>
           <h2 className="font-DM mb-[20px] md:my-[30px] max-w-[800px] text-[#0C3179]">
-            Empowering Africa’s future with innovative legal solutions. Our
+            Empowering the future with innovative legal solutions. Our
             expert team provides trusted guidance to help you navigate
             challenges, seize opportunities, and drive growth across the
             continent.
