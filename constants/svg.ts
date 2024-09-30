@@ -3,11 +3,13 @@ import RedCircle from "@/public/svg/red-circle.svg"
 import BlueCircle from "@/public/svg/blue-circle.svg"
 import BrownCircle from "@/public/svg/brown-circle.svg"
 import Background from "@/public/svg/background.svg";
+import Practice from "@/public/svg/practice.svg"
 
 export {
     InnovateLogo,
     RedCircle,
     BlueCircle,
     BrownCircle,
-    Background
+    Background,
+    Practice
 }
