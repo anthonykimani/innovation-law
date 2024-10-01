@@ -19,7 +19,8 @@ const config: Config = {
   			foreground: 'var(--foreground)'
   		},
   		backgroundImage: {
-  			"hero-bg": "url('/svg/background.svg')"
+  			"hero-bg": "url('/svg/background.svg')",
+			"contact": "url('/svg/contact-bg.svg')"
   		},
   		screens: {
   			xxs: '320px',
