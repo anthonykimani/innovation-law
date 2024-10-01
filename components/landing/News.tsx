@@ -87,18 +87,19 @@ async function getData() {
   return data;
 }
 
-const Blogs = async () => {
+const News = async () => {
   const data = await getData();
   return (
     <div className="bg-white py-24 sm:py-32 font-DM">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Our Insights
+            Our News
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            We offer educational resources, training programs, and support ,
-            fostering their growth in blockchain and cryptocurrency.
+            We offer educational resources, training programs, and support
+            , fostering their growth in blockchain and
+            cryptocurrency.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -166,4 +167,4 @@ const Blogs = async () => {
   );
 };
 
-export default Blogs;
+export default News;
