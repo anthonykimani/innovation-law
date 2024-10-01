@@ -102,7 +102,7 @@ export default function Team () {
     >
       <h3 className="text-aqua font-semibold text-xl">OUR TEAM</h3>
       <h2 className="text-black text-center text-3xl xsm:text-[40px] font-bold my-5">
-      Meet The Team at Innovation Law
+      Meet The Team at KS Legal
       </h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-10">

@@ -106,7 +106,7 @@ const News = async () => {
           {data.map((blog: BlogArticle) => (
             <>
               <Link
-                href={`/blog/${blog.currentSlug}`}
+                href={`/news/${blog.currentSlug}`}
                 key={blog.id}
                 className="flex flex-col items-start justify-between"
               >
