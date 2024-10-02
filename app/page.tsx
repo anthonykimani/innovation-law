@@ -7,7 +7,6 @@ import Footer from "@/components/landing/Footer";
 import HeroSection from "@/components/landing/HeroSection";
 import News from "@/components/landing/News";
 import PracticeAreas from "@/components/landing/PracticeAreas";
-import Team  from "@/components/landing/Team";
 
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <PracticeAreas />
       <Blogs />
       <News />
-      <Team />
       <Contact />
       <Footer />
     </div>

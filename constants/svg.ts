@@ -5,6 +5,7 @@ import BrownCircle from "@/public/svg/brown-circle.svg"
 import Background from "@/public/svg/background.svg";
 import Practice from "@/public/svg/practice.svg"
 import ContactBg from "@/public/svg/contact-bg.svg"
+import KSLegalLogo from "@/public/svg/logo.svg"
 
 export {
     InnovateLogo,
@@ -13,5 +14,6 @@ export {
     BrownCircle,
     Background,
     Practice,
-    ContactBg
+    ContactBg,
+    KSLegalLogo
 }

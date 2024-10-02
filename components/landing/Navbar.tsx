@@ -14,7 +14,8 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
-import { InnovateLogo } from "@/constants/svg";
+import { InnovateLogo, KSLegalLogo } from "@/constants/svg";
+import { KSLegal } from "@/constants/img";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -42,10 +43,10 @@ export default function Navbar() {
                 <Link href="/" className="flex flex-shrink-0 items-center">
                   <Image
                     className=""
-                    src={InnovateLogo}
+                    src={KSLegalLogo}
                     alt="Your Company"
-                    width={150}
-                    height={150}
+                    width={250}
+                    height={250}
                   />
                 </Link>
                 <div className="hidden lg:ml-6 sm:flex justify-end w-full">
