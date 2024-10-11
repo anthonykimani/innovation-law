@@ -6,6 +6,7 @@ import Background from "@/public/svg/background.svg";
 import Practice from "@/public/svg/practice.svg"
 import ContactBg from "@/public/svg/contact-bg.svg"
 import KSLegalLogo from "@/public/svg/logo.svg"
+import MaliLogo from "@/public/svg/mali.svg"
 
 export {
     InnovateLogo,
@@ -15,5 +16,6 @@ export {
     Background,
     Practice,
     ContactBg,
-    KSLegalLogo
+    KSLegalLogo,
+    MaliLogo
 }
